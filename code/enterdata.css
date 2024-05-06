@@ -1,0 +1,47 @@
+/* form style */
+.form{
+    margin-top: 150px;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+    margin-bottom: 30px;
+}
+.content{
+    background: linear-gradient(to right, #1b1463, #e81357, #54c9d7);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+}
+form{
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    margin: 0px;
+    padding: 40px;
+}
+form p{
+    font-size: 24px;
+    font-weight: 700;
+}
+.container{
+    padding-left: 1px !important;
+    padding-right: 1px !important;
+    width: 100% !important;
+}
+/* submit button style*/
+.submitbtn::before {
+    content: "Submit";
+}
+.submitbtn::after {
+    content: "Submit";
+}
+/* instructions */
+ul{
+    list-style-type: none;
+}
